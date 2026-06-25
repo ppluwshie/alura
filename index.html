@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curiosidades Científicas</title>
+    <title>Haikyuu! - Voe Mais Alto</title>
     <style>
-        /* Estilos básicos para o projeto Alura */
+        /* Estilos base inspirados no Karasuno */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7f6;
-            color: #333;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,76 +18,92 @@
         }
 
         header {
-            background-color: #1e293b;
-            color: #fff;
+            background-color: #0f172a; /* Preto/Azul escuro do uniforme */
+            color: #ffffff;
             width: 100%;
             text-align: center;
-            padding: 2rem 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 3rem 0;
+            border-bottom: 6px solid #f97316; /* Laranja vibrante */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
         }
 
         main {
             max-width: 800px;
-            margin: 2rem padding;
-            padding: 0 1rem;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
             text-align: center;
         }
 
         .descricao {
-            font-size: 1.2rem;
-            line-height: 1.6;
-            color: #4b5563;
-            margin-bottom: 3rem;
+            font-size: 1.25rem;
+            line-height: 1.8;
+            color: #475569;
+            margin-bottom: 3.5rem;
+            font-weight: 400;
         }
 
-        .container-curiosidades {
+        .grid-personagens {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1.5rem;
+            gap: 2rem;
         }
 
         .card {
-            background-color: #fff;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
             text-align: left;
-            border-top: 4px solid #3b82f6;
+            border-left: 5px solid #f97316;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
         }
 
         .card h3 {
             margin-top: 0;
-            color: #1e293b;
+            color: #0f172a;
+            font-size: 1.4rem;
+        }
+
+        .card p {
+            color: #64748b;
+            line-height: 1.5;
+            margin-bottom: 0;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <!-- Título principal da aula -->
-        <h1>Minha página sobre curiosidades científicas</h1>
+        <!-- Título principal solicitado -->
+        <h1>Minha página sobre o anime Haikyuu!!</h1>
     </header>
 
     <main>
         <!-- Pequena descrição sobre o que será a página -->
         <p class="descricao">
-            Bem-vindo ao meu espaço de descobertas! Esta página foi criada durante as aulas da Alura para explorar os mistérios do universo, da física quântica à biologia molecular, desmistificando a ciência de forma simples e divertida.
+            Bem-vindo ao espaço definitivo para os fãs de vôlei e superação! Esta página, desenvolvida durante as aulas da Alura, é dedicada a explorar o universo de Haikyuu!!. Aqui vamos acompanhar a jornada de Shoyo Hinata, a rivalidade com Kageyama e a impressionante evolução do time do colégio Karasuno em busca do topo do campeonato nacional.
         </p>
 
-        <!-- Espaço para os próximos conteúdos da aula -->
-        <section class="container-curiosidades">
+        <!-- Seção extra para enriquecer o layout da aula -->
+        <section class="grid-personagens">
             <div class="card">
-                <h3>🌌 O Tecido do Espaço</h3>
-                <p>Você sabia que o tempo passa mais devagar perto de objetos com muita gravidade? É a Teoria da Relatividade na prática!</p>
+                <h3>🏐 Shoyo Hinata (#10)</h3>
+                <p>O "Pequeno Gigante" do Karasuno. Apesar da baixa estatura, compensa tudo com uma velocidade absurda, impulsão impressionante e uma determinação inabalável de permanecer na quadra.</p>
             </div>
             <div class="card">
-                <h3>🧬 Código da Vida</h3>
-                <p>Se você desenrolasse todo o DNA de apenas uma célula do seu corpo, ele teria cerca de 2 metros de comprimento.</p>
+                <h3>👑 Tobio Kageyama (#9)</h3>
+                <p>Conhecido inicialmente como o "Rei da Quadra", é um levantador genial e arrogante que precisa aprender o verdadeiro significado de jogar em equipe para alcançar o seu potencial máximo.</p>
             </div>
         </section>
     </main>

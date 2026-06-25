@@ -1,2 +1,96 @@
-<h1>Minha página sobre curiosidades científicas</h1>
-<p1>Aqui vou compartilhar fatos e curiosidades científicas presentes em nosso cotidiano, de forma didática e acessível a todos.</p1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades Científicas</title>
+    <style>
+        /* Estilos básicos para o projeto Alura */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #1e293b;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem padding;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        .descricao {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #4b5563;
+            margin-bottom: 3rem;
+        }
+
+        .container-curiosidades {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            text-align: left;
+            border-top: 4px solid #3b82f6;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Título principal da aula -->
+        <h1>Minha página sobre curiosidades científicas</h1>
+    </header>
+
+    <main>
+        <!-- Pequena descrição sobre o que será a página -->
+        <p class="descricao">
+            Bem-vindo ao meu espaço de descobertas! Esta página foi criada durante as aulas da Alura para explorar os mistérios do universo, da física quântica à biologia molecular, desmistificando a ciência de forma simples e divertida.
+        </p>
+
+        <!-- Espaço para os próximos conteúdos da aula -->
+        <section class="container-curiosidades">
+            <div class="card">
+                <h3>🌌 O Tecido do Espaço</h3>
+                <p>Você sabia que o tempo passa mais devagar perto de objetos com muita gravidade? É a Teoria da Relatividade na prática!</p>
+            </div>
+            <div class="card">
+                <h3>🧬 Código da Vida</h3>
+                <p>Se você desenrolasse todo o DNA de apenas uma célula do seu corpo, ele teria cerca de 2 metros de comprimento.</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
